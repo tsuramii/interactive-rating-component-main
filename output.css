@@ -542,10 +542,6 @@ video {
   min-height: 95vh;
 }
 
-.min-w-\[95vh\] {
-  min-width: 95vh;
-}
-
 .bg-verydarkblue {
   --tw-bg-opacity: 1;
   background-color: rgb(18 20 23 / var(--tw-bg-opacity));
@@ -568,14 +564,14 @@ video {
   line-height: 1.25rem;
 }
 
-.text-darkblue {
-  --tw-text-opacity: 1;
-  color: rgb(37 45 55 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-orange {
+  --tw-text-opacity: 1;
+  color: rgb(251 116 19 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -584,4 +580,9 @@ video {
 
 .underline-offset-2 {
   text-underline-offset: 2px;
+}
+
+.\[\&\>a\]\:text-orange>a {
+  --tw-text-opacity: 1;
+  color: rgb(251 116 19 / var(--tw-text-opacity));
 }
